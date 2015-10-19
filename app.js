@@ -20,6 +20,10 @@ $(document).ready(function(){
 		//console.log(values);
 		employeeArray.push(values);
 		//console.log(employeeArray);
+
+		//for loop to set "none" to unentered values
+		//for some reason 'required' wasn't working in safari for my
+		//employee fields
 		for (var property in values) {
 			//console.log(values[property]);
 			if (values[property] === "") {
