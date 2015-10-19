@@ -20,6 +20,13 @@ $(document).ready(function(){
 		//console.log(values);
 		employeeArray.push(values);
 		//console.log(employeeArray);
+		for (var property in values) {
+			//console.log(values[property]);
+			if (values[property] === "") {
+				values[property] = "(none)";
+				console.log(values[property]);
+			}
+		}	
 
 		employeeMonthlySalary(values.salary);
 		appendDom(values);
