@@ -1,0 +1,66 @@
+html, body, h1, p {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 100%;
+    font: inherit;
+}
+body {
+	font-family: Georgia, Helvetica, Arial, sans-serif;
+	background-image: url(http://cdn.bigbangfish.com/abstract/355976-blue-backgrounds.jpg);
+	background-size: 100%;
+}
+#employeeinfo {
+	display:block;
+	border: 1px solid;
+	width:25%;
+	margin: 0 auto;
+	background: #E5F4FC;
+	box-shadow: 2px 2px 2px black;
+}
+.formClass {
+	text-align: center;
+	padding: 2px;
+}
+h1 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+	padding: 5px;
+	text-shadow:1px 1px #E8E8E8;
+}
+
+.employee_labels, .employee, .monthly_salary {
+	display: inline-block;
+	margin: 20px 5px;
+	background: #E5F4FC;
+	box-shadow: -2px 2px 2px black;
+	border-radius: 2px;
+	border: .5px solid;
+	text-align: center;
+	padding:10px;
+	line-height: 20px;
+
+}
+.employee {
+	color: #959595;
+}
+.employee_labels {
+	margin-left: 100px
+}
+.monthly_salary {
+	position:absolute;
+	right:200px;
+}
+.delete_employee {
+	position:absolute;
+	display:inline-block;
+	right:100px;
+	bottom:100px;
+	background-color:#E8E8E8;
+	border-radius: 5px;
+}
+input {
+	text-shadow: 0 -5px -5px black;
+}
+
